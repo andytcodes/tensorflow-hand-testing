@@ -1,0 +1,14 @@
+1. Install and Import Dependencies (tensorflow, react-webcam)
+1-1 npm install @tensorflow/tfjs @tensorflow-models/handpose react-webcam
+
+2. Setup webcam and canvas
+2-1. import * as tf from "@tensorflow/tfjs";
+2-2. import * as handpose from "@tensorflow-models/handpose";
+2-3. import Webcam from "react-webcam"; 
+2-4. import Reac, {useRef} from 'react';
+
+3. Define references to those
+4. Load handpose
+5. Detect Function
+6. Drawing utilities from tensorflow
+8. Draw functions
