@@ -38,7 +38,7 @@ export const drawHand = (predictions, ctx) =>{
             landmarks[secondJointIndex][0],
             landmarks[secondJointIndex][1]
           );
-          ctx.strokeStyle = "orange";
+          ctx.strokeStyle = "#FC9A06";
           ctx.lineWidth = 4;
           ctx.stroke();
         }
